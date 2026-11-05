@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 908aa617925e6db448f421399c5bf8bf, type: 3}
+  m_Name: CardDatabase
+  m_EditorClassIdentifier: Assembly-CSharp::CardGame.CardDatabase
+  characterCards:
+  - {fileID: 11400000, guid: 0083cba6a6c80584ba5d52564fdc864f, type: 2}
+  - {fileID: 11400000, guid: 9e33d87a00d5ead43bf4d6a4866d7908, type: 2}
+  - {fileID: 11400000, guid: 306a820eb8bfd014c94104711e3b8404, type: 2}
+  - {fileID: 11400000, guid: 834ae95e195da524a843264efe56832b, type: 2}
+  - {fileID: 11400000, guid: 598128bd7468fbf46a673be738564382, type: 2}
+  - {fileID: 11400000, guid: 137294d4616668e439573605e8745848, type: 2}
+  - {fileID: 11400000, guid: 103f98ffd7b16924cb99d5ea43e9f210, type: 2}
+  - {fileID: 11400000, guid: 7292db0b514f8c143b0e0715573e5af7, type: 2}
+  - {fileID: 11400000, guid: 2f68529696dd19741a9a8d358e446855, type: 2}
+  - {fileID: 11400000, guid: e018cc25a86c2a040952931167ab9da1, type: 2}
+  - {fileID: 11400000, guid: a633d3268a396f149825d9d26bd9a73d, type: 2}
+  - {fileID: 11400000, guid: db6971f2840c2d248b58cb92bc924c9e, type: 2}
+  - {fileID: 11400000, guid: 36d7657defbd42440af2edc60f3fa819, type: 2}
+  - {fileID: 11400000, guid: e5fa5669143b5b64db323e17ea862db2, type: 2}
+  - {fileID: 11400000, guid: 32b6d630ddb664d479cfc088352fb620, type: 2}
+  - {fileID: 11400000, guid: 80ddc51fb9c7e6d489719e9f468c81ab, type: 2}
+  - {fileID: 11400000, guid: 7305eef349636e64d8ba4fc61edf3842, type: 2}
+  - {fileID: 11400000, guid: 8f347661e893c9a488f546d692383efb, type: 2}
+  - {fileID: 11400000, guid: cd27cbd6efc457c49a8deb4edebeb86f, type: 2}
+  - {fileID: 11400000, guid: b7d48a9691636224c865dec822669e05, type: 2}
+  - {fileID: 11400000, guid: cf3e96ad6fde12a489e76634142bf829, type: 2}
+  - {fileID: 11400000, guid: 3476a058f5046c84cb77a4a209c6db47, type: 2}
+  - {fileID: 11400000, guid: 96a4e3cf3dc28224e8616779aff9a627, type: 2}
+  - {fileID: 11400000, guid: 71ab484963658734f9ee8413e69280e7, type: 2}
+  - {fileID: 11400000, guid: fa464da25d0d4574f8f120646f5d51af, type: 2}
+  additionalCards:
+  - {fileID: 11400000, guid: 1b16788bf2452f54eb2a8083f65c6b0a, type: 2}
+  - {fileID: 11400000, guid: e887d30d84f48414487b80886867b55e, type: 2}
+  - {fileID: 11400000, guid: 4d291b0e4a9fb5e4eb4094b1ff56a212, type: 2}
+  - {fileID: 11400000, guid: 5372a41a276525444a428acae5152fdb, type: 2}
+  - {fileID: 11400000, guid: 39b8450e1bb917a4c94d3bd7b6204f7b, type: 2}
+  - {fileID: 11400000, guid: aed3cfc383b2e4f4f82dca3fe5402136, type: 2}
+  - {fileID: 11400000, guid: 094ba7d45a6c982458bfb6f151d5a973, type: 2}
+  - {fileID: 11400000, guid: 85eb3f4e296617840bfee954b571737f, type: 2}
+  - {fileID: 11400000, guid: 7b4a955bae8e8f94ba3f2ad0de650f83, type: 2}
+  - {fileID: 11400000, guid: 3b5c82a7e397fed45aea902ceef79085, type: 2}
+  - {fileID: 11400000, guid: fba7219902b363d43b48e674aca35e5c, type: 2}
+  - {fileID: 11400000, guid: 6a97006a1cbfacc41b90138f0112a5ab, type: 2}
+  - {fileID: 11400000, guid: 162c489a21e867a40bea1a999b7eae83, type: 2}
+  - {fileID: 11400000, guid: 7da5f3d0cc16bc345beacc03693d81e7, type: 2}
+  - {fileID: 11400000, guid: 421698b4d9037d3478e2e8261af39f7a, type: 2}
+  - {fileID: 11400000, guid: c7ae5ec14a5718447b6e40784b37936d, type: 2}
+  enemyCards:
+  - {fileID: 11400000, guid: 7b6b794727ec76549a300b0c24cb72d4, type: 2}
+  - {fileID: 11400000, guid: f8278f8a5b37b88499d38716705511fc, type: 2}
+  - {fileID: 11400000, guid: 1ac4836bd9453cf419810748b5365030, type: 2}
+  - {fileID: 11400000, guid: 264d3d68f636b3f42ae74f8cee03db8a, type: 2}
+  - {fileID: 11400000, guid: f2dc863beef75a54daf3af08722aae92, type: 2}
+  - {fileID: 11400000, guid: 0125978dc510838428090b2a1aa4af87, type: 2}
+  - {fileID: 11400000, guid: 6434620b42b19254cb47460692cd8c5e, type: 2}
+  - {fileID: 11400000, guid: bf9a6cb913c50194e8495c97e7cb903a, type: 2}

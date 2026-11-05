@@ -1,0 +1,621 @@
+/*
+2026-11-04 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+/*
+2026-10-23 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+*/
+/* ===== Game HUD (compact, borderless, dark/gold) ===== */
+.hud-panel {
+    background-color: rgba(10, 12, 22, 0.85);
+    border-radius: 6px;
+    padding: 6px 8px;
+    margin-bottom: 6px;
+}
+
+.hud-panel-title {
+    font-size: 12px;
+    color: #E2B765;
+    -unity-font-style: bold;
+    margin-bottom: 4px;
+}
+
+.hud-caption {
+    font-size: 10px;
+    color: #A9A194;
+}
+
+.hud-value {
+    font-size: 11px;
+    color: #E6E1D8;
+}
+
+.hud-text-block {
+    white-space: normal;
+    font-size: 10px;
+    color: #D8D2C4;
+}
+
+.hud-hidden {
+    display: none;
+}
+
+/* Підготовка до бою: компактна плашка зверху, не перекриває руку й картку мага */
+.roe-overlay.hud-flow--setup {
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: flex-start;
+    width: 420px;
+    height: auto;
+    top: 8px;
+    left: 50%;
+    translate: -50% 0;
+}
+
+.hud-flow--setup .roe-modal-box {
+    width: 420px;
+    padding: 8px 14px;
+}
+
+.hud-flow--setup .roe-modal-title {
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.hud-flow--setup .roe-modal-body {
+    font-size: 11px;
+    margin-bottom: 6px;
+}
+
+/* ----- Header ----- */
+.hud-header {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(10, 12, 22, 0.85);
+    border-radius: 6px;
+    padding: 3px 8px 3px 4px;
+}
+
+.hud-emblem {
+    width: 28px;
+    height: 28px;
+    margin-right: 6px;
+    border-radius: 14px;
+    background-color: rgba(40, 34, 56, 0.95);
+    padding: 4px;
+}
+
+.hud-header-title {
+    font-size: 14px;
+    color: #F2E4C4;
+    -unity-font-style: bold;
+}
+
+.hud-header-sub {
+    font-size: 10px;
+    color: #BDB6A8;
+}
+
+.hud-menu-btn {
+    margin-left: 10px;
+    padding: 2px 8px;
+    font-size: 10px;
+    border-width: 0;
+}
+
+/* ----- Left column: rune pool ----- */
+.hud-slot .unity-label,
+.hud-rune-card .unity-label {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.hud-slot .unity-label {
+    font-size: 8px;
+    color: #7E7690;
+}
+
+.hud-left-column {
+    position: absolute;
+    top: 134px;
+    left: 8px;
+    bottom: 118px;
+    width: 116px;
+    overflow: hidden;
+}
+
+.hud-pool-grid {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hud-pool-tile {
+    width: 32px;
+    height: 32px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: rgba(34, 32, 50, 0.95);
+    align-items: center;
+    justify-content: center;
+}
+
+.hud-pool-tile--empty {
+    opacity: 0.35;
+}
+
+.hud-pool-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.hud-pool-count {
+    position: absolute;
+    right: 1px;
+    bottom: -2px;
+    font-size: 10px;
+    -unity-font-style: bold;
+    color: #FFFFFF;
+}
+
+.hud-pool-total {
+    margin-top: 2px;
+    -unity-text-align: middle-center;
+}
+
+/* ----- Right column ----- */
+.hud-right-column {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    bottom: 118px;
+    width: 190px;
+}
+
+.hud-right-column .unity-scroller--vertical {
+    width: 6px;
+}
+
+.hud-right-column .unity-scroller--vertical .unity-scroller__low-button,
+.hud-right-column .unity-scroller--vertical .unity-scroller__high-button {
+    display: none;
+}
+
+.hud-hero-head {
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 4px;
+}
+
+.hud-hero-element {
+    width: 20px;
+    height: 20px;
+    margin-right: 6px;
+    border-radius: 10px;
+    padding: 3px;
+    background-color: rgba(50, 34, 34, 0.9);
+}
+
+.hud-hero-name {
+    font-size: 13px;
+    color: #F2E4C4;
+    -unity-font-style: bold;
+    flex-shrink: 1;
+}
+
+.hud-portrait-frame {
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #120E18;
+}
+
+.hud-portrait {
+    height: 96px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.hud-stats-row {
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(8, 8, 14, 0.75);
+    padding: 2px 0;
+}
+
+.hud-stat {
+    flex-direction: row;
+    align-items: center;
+}
+
+.hud-stat-icon {
+    width: 14px;
+    height: 14px;
+    margin-right: 3px;
+}
+
+.hud-conc-dot {
+    width: 12px;
+    height: 12px;
+    margin-right: 3px;
+    border-radius: 6px;
+    background-color: #3A86F0;
+}
+
+.hud-stat-value {
+    font-size: 12px;
+    color: #FFFFFF;
+    -unity-font-style: bold;
+}
+
+.hud-subheader {
+    font-size: 10px;
+    color: #EADBC0;
+    margin-top: 4px;
+    margin-bottom: 1px;
+}
+
+/* Rune slots of the mage card (compact, inside hero panel) */
+.hud-slot-row {
+    flex-direction: row;
+    margin-top: 2px;
+}
+
+.hud-slot {
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 30px;
+    margin: 0 2px 0 0;
+    padding: 2px;
+    border-width: 0;
+    border-radius: 4px;
+    background-color: rgba(34, 32, 50, 0.95);
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+    color: #7E7690;
+    cursor: link;
+}
+
+.hud-slot:hover {
+    background-color: rgba(60, 52, 84, 0.98);
+}
+
+.hud-slot-icon {
+    width: 22px;
+    height: 22px;
+}
+
+.hud-tags {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hud-tag {
+    font-size: 9px;
+    color: #EDE6F5;
+    background-color: rgba(60, 46, 90, 0.85);
+    border-radius: 3px;
+    padding: 1px 4px;
+    margin: 2px 2px 0 0;
+}
+
+/* Team */
+.hud-team-row {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hud-team-member {
+    width: 40px;
+    align-items: center;
+}
+
+.hud-team-icon-frame {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: rgba(34, 32, 50, 0.95);
+    padding: 5px;
+}
+
+.hud-team-member--active .hud-team-icon-frame {
+    background-color: rgba(120, 90, 36, 0.95);
+}
+
+.hud-team-member--eliminated {
+    opacity: 0.35;
+}
+
+.hud-team-icon {
+    flex-grow: 1;
+}
+
+.hud-team-hp {
+    font-size: 9px;
+    color: #F08A80;
+}
+
+.hud-team-summary {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4px;
+}
+
+/* ----- Bottom row ----- */
+.hud-bottom-row {
+    position: absolute;
+    left: 8px;
+    right: 8px;
+    bottom: 6px;
+    height: 104px;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+/* Blessing card */
+.hud-blessing-card .hud-text-block {
+    font-size: 9px;
+    flex-shrink: 1;
+    min-height: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.hud-blessing-kind,
+.hud-blessing-name,
+.hud-blessing-uses {
+    flex-shrink: 0;
+}
+
+.hud-hand-panel,
+.hud-dice-panel {
+    overflow: hidden;
+}
+
+.hud-blessing-card {
+    width: 190px;
+    height: 100%;
+    margin: 0 6px 0 0;
+    padding: 5px 8px;
+    overflow: hidden;
+    border-radius: 6px;
+    background-color: rgba(48, 36, 18, 0.92);
+}
+
+.hud-blessing-card--curse {
+    background-color: rgba(54, 18, 26, 0.92);
+}
+
+.hud-blessing-card--risk {
+    background-color: rgba(26, 28, 58, 0.92);
+}
+
+.hud-blessing-card--empty {
+    background-color: rgba(10, 12, 22, 0.7);
+}
+
+.hud-blessing-kind {
+    font-size: 9px;
+    color: #C9B48A;
+}
+
+.hud-blessing-name {
+    font-size: 12px;
+    color: #F7D58B;
+    -unity-font-style: bold;
+    white-space: normal;
+    margin-bottom: 2px;
+}
+
+.hud-blessing-uses {
+    font-size: 9px;
+    color: #A9A194;
+    flex-shrink: 1;
+    -unity-text-align: middle-right;
+}
+
+.hud-blessing-top {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.hud-blessing-card .unity-label {
+    margin: 0;
+    padding: 0;
+}
+
+/* Hand */
+.hud-hand-panel {
+    flex-grow: 1;
+    height: 100%;
+    margin: 0 6px 0 0;
+}
+
+.hud-hand-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.hud-message {
+    font-size: 10px;
+    color: #F08A80;
+    margin-top: 2px;
+    white-space: normal;
+}
+
+.hud-rune-card {
+    flex-direction: row;
+    align-items: center;
+    height: 30px;
+    min-width: 76px;
+    margin: 2px 4px 2px 0;
+    padding: 2px 6px 2px 3px;
+    border-width: 0;
+    border-radius: 5px;
+    background-color: rgba(34, 32, 50, 0.95);
+    color: #F2E4C4;
+    -unity-font-style: bold;
+    font-size: 10px;
+    cursor: link;
+}
+
+.hud-rune-card:hover {
+    background-color: rgba(60, 52, 84, 0.98);
+}
+
+.hud-rune-card--selected {
+    background-color: rgba(140, 96, 32, 0.98);
+}
+
+.hud-rune-card-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+/* Dice */
+.hud-dice-panel {
+    width: 132px;
+    height: 100%;
+    margin: 0 6px 0 0;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hud-die {
+    align-items: center;
+}
+
+.hud-die-face {
+    width: 34px;
+    height: 34px;
+    align-items: center;
+    justify-content: center;
+}
+
+.hud-die-value {
+    font-size: 14px;
+    -unity-font-style: bold;
+    color: #FFFFFF;
+    -unity-text-outline-width: 1px;
+    -unity-text-outline-color: #000000;
+}
+
+.hud-die-caption {
+    margin-top: 3px;
+}
+
+/* Actions */
+.hud-actions {
+    width: 150px;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.hud-action-btn {
+    height: 30px;
+    margin: 3px 0 0 0;
+    font-size: 12px;
+    border-width: 0;
+    border-radius: 5px;
+    color: #F5E6CC;
+    -unity-font-style: bold;
+    cursor: link;
+}
+
+.hud-action-btn--gold {
+    background-color: #7A561C;
+}
+
+.hud-action-btn--gold:hover {
+    background-color: #966B24;
+}
+
+.hud-action-btn--blue {
+    background-color: #1D4280;
+}
+
+.hud-action-btn--blue:hover {
+    background-color: #275399;
+}
+
+.hud-action-btn--gray {
+    background-color: #2C313B;
+}
+
+.hud-action-btn--gray:hover {
+    background-color: #3B4250;
+}
+
+.hud-action-btn--purple {
+    background-color: #3A2A66;
+}
+
+.hud-action-btn:disabled {
+    opacity: 0.45;
+}
+
+/* Spells popup */
+.hud-spells-popup {
+    position: absolute;
+    right: 8px;
+    bottom: 116px;
+    width: 240px;
+}
+
+.hud-spell-btn {
+    border-width: 0;
+    font-size: 11px;
+    padding: 5px 8px;
+}
+
+/* Static icons */
+.hud-icon-heart {
+    background-image: url("project://database/Assets/Arena/UI_Sprites/Icon_Heart.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.hud-icon-earth {
+    background-image: url("project://database/Assets/Arena/UI_Sprites/Icon_Earth.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.hud-icon-d4 {
+    background-image: url("project://database/Assets/Arena/UI_Sprites/Icon_D4.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.hud-icon-d6 {
+    background-image: url("project://database/Assets/Arena/UI_Sprites/Icon_D6.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.hud-icon-d8 {
+    background-image: url("project://database/Assets/Arena/UI_Sprites/Icon_D8.png");
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+/* Modals */
+.roe-btn,
+.roe-modal-box {
+    border-width: 0;
+}
+
+.hud-modal-row {
+    flex-direction: row;
+}
+
+.hud-flow-extra {
+    margin-bottom: 12px;
+    align-items: center;
+}
+
+.hud-flow-btn {
+    font-size: 16px;
+    padding: 10px 24px;
+}

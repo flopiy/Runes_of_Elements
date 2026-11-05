@@ -1,0 +1,52 @@
+# Unity: згенеровані папки
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Збірки
+/[Bb]uild/
+/[Bb]uilds/
+
+# Відновлення сцен
+/Assets/_Recovery/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+.gradle/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.opendb
+*.VC.db
+*.pidb.meta
+
+# Unity crash reports
+sysinfo.txt
+crash-report/
+mono_crash.*
+
+# Файли операційної системи
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Тимчасові файли та резервні копії Blender
+*.blend1
+*.blend2
+*.blend@
+*.tmp
+*.bak

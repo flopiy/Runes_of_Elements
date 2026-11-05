@@ -1,0 +1,16 @@
+{
+    "name": "RunesOfElements.Data",
+    "rootNamespace": "RunesOfElements.Data",
+    "references": [
+        "RunesOfElements.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

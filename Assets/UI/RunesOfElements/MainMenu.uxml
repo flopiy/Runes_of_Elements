@@ -1,0 +1,34 @@
+<!--
+2026-11-04 AI-Tag
+This was created with the help of Assistant, a Unity Artificial Intelligence product.
+-->
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+<ui:Style src="MainMenu.uss" />
+<ui:VisualElement name="menu-root" class="menu-root" picking-mode="Ignore">
+<ui:VisualElement class="menu-brand" picking-mode="Ignore"><ui:Label text="РУНИ СТИХІЙ" class="menu-brand-title" /><ui:Label text="МАГІЯ • ЗАГІН • ПІДЙОМ" class="menu-brand-sub" /></ui:VisualElement>
+<ui:VisualElement class="menu-side" picking-mode="Ignore">
+<ui:VisualElement name="title-view" class="menu-title-panel">
+<ui:Label text="ПОХІД У НЕВІДОМЕ" class="menu-eyebrow" /><ui:Label text="Башта новачка" class="menu-heading" /><ui:Label text="10 поверхів. 30 випробувань.&#10;Чотири маги проти сил Розлому." class="menu-copy" />
+<ui:Button name="btn-solo" text="Сольна гра" class="menu-button menu-primary" /><ui:Button name="btn-hotseat" text="Гаряче місце" class="menu-button" /><ui:Button name="btn-rules" text="Правила гри" class="menu-button" /><ui:Button name="btn-quit" text="Вихід" class="menu-button" />
+<ui:VisualElement class="menu-online"><ui:Label text="Онлайн-лобі ще не підключене" class="menu-caption" /><ui:Button name="btn-create-online" text="Створити кімнату" class="menu-button menu-small" enabled="false" /><ui:VisualElement class="menu-online-row"><ui:TextField name="join-code-input" class="menu-code" enabled="false" /><ui:Button name="btn-join-online" text="Увійти" class="menu-button menu-small" enabled="false" /></ui:VisualElement></ui:VisualElement>
+</ui:VisualElement>
+</ui:VisualElement>
+<ui:Label text="Станьте перед брамою.Підкоріть вершину." class="menu-footer" picking-mode="Ignore" />
+<ui:VisualElement name="lobby-view" class="menu-overlay menu-hidden"><ui:VisualElement class="menu-dialog">
+<ui:Label name="lobby-title" text="НАЛАШТУВАННЯ ПОХОДУ" class="menu-dialog-title" /><ui:Label name="room-code-label" text="Сольна гра" class="menu-caption" /><ui:Label text="СКЛАД ЗАГОНУ • натисніть на мага, щоб змінити його" class="menu-caption" />
+<ui:VisualElement name="seats-container" class="menu-seats">
+<ui:VisualElement name="seat-0" class="menu-seat"><ui:Label name="seat-0-name" text="Ви" class="menu-seat-name" /><ui:Button name="seat-0-mage" text="Піромант" class="menu-button menu-mage-select" /><ui:Label text="Людина" class="menu-seat-kind" /></ui:VisualElement>
+<ui:VisualElement name="seat-1" class="menu-seat"><ui:Label name="seat-1-name" text="Місце 2" class="menu-seat-name" /><ui:Button name="seat-1-mage" text="Гідромант" class="menu-button menu-mage-select" /><ui:Button name="seat-1-toggle" text="Бот" class="menu-button menu-seat-kind" /></ui:VisualElement>
+<ui:VisualElement name="seat-2" class="menu-seat"><ui:Label name="seat-2-name" text="Місце 3" class="menu-seat-name" /><ui:Button name="seat-2-mage" text="Електромант" class="menu-button menu-mage-select" /><ui:Button name="seat-2-toggle" text="Бот" class="menu-button menu-seat-kind" /></ui:VisualElement>
+<ui:VisualElement name="seat-3" class="menu-seat"><ui:Label name="seat-3-name" text="Місце 4" class="menu-seat-name" /><ui:Button name="seat-3-mage" text="Кріомант" class="menu-button menu-mage-select" /><ui:Button name="seat-3-toggle" text="Бот" class="menu-button menu-seat-kind" /></ui:VisualElement>
+</ui:VisualElement>
+<ui:VisualElement class="menu-options"><ui:Button name="boss-select-btn" text="Бос: Випадковий" class="menu-button menu-option" /><ui:Button name="overheat-toggle-btn" text="Перегрів: Увімкнено" class="menu-button menu-option" /></ui:VisualElement>
+<ui:VisualElement class="menu-dialog-actions"><ui:Button name="btn-lobby-back" text="Назад" class="menu-button menu-back" /><ui:Button name="btn-lobby-start" text="Почати похід" class="menu-button menu-primary menu-start" /></ui:VisualElement>
+</ui:VisualElement></ui:VisualElement>
+<ui:VisualElement name="rules-modal" class="menu-overlay menu-hidden"><ui:VisualElement class="menu-dialog">
+<ui:Label text="ПРАВИЛА • РУНИ СТИХІЙ" class="menu-dialog-title" />
+<ui:VisualElement name="rules-content" class="menu-rules-scroll"><ui:Label text="БАШТА НОВАЧКА:&#10;• 10 поверхів, на кожному по 3 хвилі монстрів.&#10;• Між хвилями 1–2: живі маги відновлюють +3 HP. Вибулі залишаються поза грою до кінця поверху.&#10;• Після 3-ї хвилі: живі отримують +1 випадкову руну та +3 HP, вибулі повертаються з 3 HP.&#10;&#10;КОНЦЕНТРАЦІЯ:&#10;• Старт 4, +1 на початку ходу. Максимум 5; надлишок згорає.&#10;• Медитація завершує хід без атаки; наступного ходу +2 концентрації (до 5).&#10;&#10;ЗАКЛИНАННЯ:&#10;• Викладена Стихія + викладена Форма. За хід можна замінити не більше 1 руни на картці мага.&#10;• Вогонь: 2 концентрації, d6+2 шкоди.&#10;• Вода, Лід, Блискавка: 1 концентрація, d6 шкоди.&#10;• Промінь (1 конц.): ціль та монстр у тій же колонці іншого ряду.&#10;• Сфера (3 конц.): ціль і сусіди в рядку, до 3 цілей. Один кидок дає однакову шкоду всім цілям.&#10;&#10;КАРТИ:&#10;• Кожен гравець отримує випадкову карту на старті кампанії.&#10;• Після 3-го поверху можна скинути карту благословення." class="menu-rules-text" /></ui:VisualElement>
+<ui:Button name="btn-rules-close" text="Зрозуміло" class="menu-button menu-primary" />
+</ui:VisualElement></ui:VisualElement>
+</ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc779762045ad9b4bb3852e7d0b681b4, type: 3}
+  m_Name: Campaign_Default
+  m_EditorClassIdentifier: RunesOfElements.Data::RunesOfElements.Data.CampaignDefinition
+  _floors:
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 1 \u2014 \u0411\u0440\u0430\u043C\u0430"
+    Waves:
+    - Level1: 2
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    - Level1: 2
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    - Level1: 3
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    MonsterHpBonus: 0
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 2 \u2014 \u041A\u0430\u0437\u0430\u0440\u043C\u0438"
+    Waves:
+    - Level1: 3
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    - Level1: 3
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    - Level1: 4
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    MonsterHpBonus: 3
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 3 \u2014 \u0411\u0456\u0431\u043B\u0456\u043E\u0442\u0435\u043A\u0430"
+    Waves:
+    - Level1: 3
+      Level2: 0
+      Level3: 0
+      Boss: 0
+    - Level1: 2
+      Level2: 1
+      Level3: 0
+      Boss: 0
+    - Level1: 0
+      Level2: 2
+      Level3: 0
+      Boss: 0
+    MonsterHpBonus: 6
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 4 \u2014 \u0421\u043A\u043B\u0435\u043F\u0456\u043D\u043D\u044F"
+    Waves:
+    - Level1: 0
+      Level2: 2
+      Level3: 0
+      Boss: 0
+    - Level1: 1
+      Level2: 2
+      Level3: 0
+      Boss: 0
+    - Level1: 0
+      Level2: 3
+      Level3: 0
+      Boss: 0
+    MonsterHpBonus: 9
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 5 \u2014 \u0417\u0430\u043B\u0430
+      \u0441\u0442\u0440\u0430\u0436\u0430"
+    Waves:
+    - Level1: 0
+      Level2: 2
+      Level3: 0
+      Boss: 0
+    - Level1: 1
+      Level2: 2
+      Level3: 0
+      Boss: 0
+    - Level1: 2
+      Level2: 0
+      Level3: 1
+      Boss: 0
+    MonsterHpBonus: 12
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 6 \u2014 \u041A\u0443\u0437\u043D\u044F
+      \u0440\u0443\u043D"
+    Waves:
+    - Level1: 0
+      Level2: 3
+      Level3: 0
+      Boss: 0
+    - Level1: 2
+      Level2: 0
+      Level3: 1
+      Boss: 0
+    - Level1: 0
+      Level2: 1
+      Level3: 1
+      Boss: 0
+    MonsterHpBonus: 15
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 7 \u2014 \u0413\u0440\u043E\u0437\u043E\u0432\u0430
+      \u0433\u0430\u043B\u0435\u0440\u0435\u044F"
+    Waves:
+    - Level1: 0
+      Level2: 1
+      Level3: 1
+      Boss: 0
+    - Level1: 1
+      Level2: 1
+      Level3: 1
+      Boss: 0
+    - Level1: 0
+      Level2: 0
+      Level3: 2
+      Boss: 0
+    MonsterHpBonus: 18
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 8 \u2014 \u041A\u0440\u0438\u0436\u0430\u043D\u0438\u0439
+      \u044F\u0440\u0443\u0441"
+    Waves:
+    - Level1: 0
+      Level2: 2
+      Level3: 1
+      Boss: 0
+    - Level1: 1
+      Level2: 0
+      Level3: 2
+      Boss: 0
+    - Level1: 0
+      Level2: 1
+      Level3: 2
+      Boss: 0
+    MonsterHpBonus: 21
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 9 \u2014 \u0422\u0456\u043D\u044C
+      \u0420\u043E\u0437\u043B\u043E\u043C\u0443"
+    Waves:
+    - Level1: 2
+      Level2: 0
+      Level3: 2
+      Boss: 0
+    - Level1: 0
+      Level2: 1
+      Level3: 2
+      Boss: 0
+    - Level1: 0
+      Level2: 0
+      Level3: 3
+      Boss: 0
+    MonsterHpBonus: 24
+  - Name: "\u041F\u043E\u0432\u0435\u0440\u0445 10 \u2014 \u041E\u0431\u0441\u0435\u0440\u0432\u0430\u0442\u043E\u0440\u0456\u044F"
+    Waves:
+    - Level1: 0
+      Level2: 3
+      Level3: 0
+      Boss: 0
+    - Level1: 0
+      Level2: 2
+      Level3: 1
+      Boss: 0
+    - Level1: 2
+      Level2: 0
+      Level3: 0
+      Boss: 1
+    MonsterHpBonus: 27
+  _battles:
+  - Level1: 2
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 2
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 3
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 3
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 3
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 4
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 3
+    Level2: 0
+    Level3: 0
+    Boss: 0
+  - Level1: 2
+    Level2: 1
+    Level3: 0
+    Boss: 0
+  - Level1: 0
+    Level2: 2
+    Level3: 0
+    Boss: 0
+  - Level1: 0
+    Level2: 2
+    Level3: 0
+    Boss: 0
+  - Level1: 1
+    Level2: 2
+    Level3: 0
+    Boss: 0
+  - Level1: 0
+    Level2: 3
+    Level3: 0
+    Boss: 0
+  - Level1: 0
+    Level2: 2
+    Level3: 0
+    Boss: 0
+  - Level1: 1
+    Level2: 2
+    Level3: 0
+    Boss: 0
+  - Level1: 2
+    Level2: 0
+    Level3: 1
+    Boss: 0
+  - Level1: 0
+    Level2: 3
+    Level3: 0
+    Boss: 0
+  - Level1: 2
+    Level2: 0
+    Level3: 1
+    Boss: 0
+  - Level1: 0
+    Level2: 1
+    Level3: 1
+    Boss: 0
+  - Level1: 0
+    Level2: 1
+    Level3: 1
+    Boss: 0
+  - Level1: 1
+    Level2: 1
+    Level3: 1
+    Boss: 0
+  - Level1: 0
+    Level2: 0
+    Level3: 2
+    Boss: 0
+  - Level1: 0
+    Level2: 2
+    Level3: 1
+    Boss: 0
+  - Level1: 1
+    Level2: 0
+    Level3: 2
+    Boss: 0
+  - Level1: 0
+    Level2: 1
+    Level3: 2
+    Boss: 0
+  - Level1: 2
+    Level2: 0
+    Level3: 2
+    Boss: 0
+  - Level1: 0
+    Level2: 1
+    Level3: 2
+    Boss: 0
+  - Level1: 0
+    Level2: 0
+    Level3: 3
+    Boss: 0
+  - Level1: 0
+    Level2: 3
+    Level3: 0
+    Boss: 0
+  - Level1: 0
+    Level2: 2
+    Level3: 1
+    Boss: 0
+  - Level1: 2
+    Level2: 0
+    Level3: 0
+    Boss: 1
+  _runePool:
+  - Rune: 0
+    Count: 6
+  - Rune: 1
+    Count: 6
+  - Rune: 2
+    Count: 6
+  - Rune: 3
+    Count: 6
+  - Rune: 4
+    Count: 6
+  - Rune: 5
+    Count: 4

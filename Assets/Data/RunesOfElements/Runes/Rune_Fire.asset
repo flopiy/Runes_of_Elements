@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb719e220b41bc4c89592af72b507be, type: 3}
+  m_Name: Rune_Fire
+  m_EditorClassIdentifier: RunesOfElements.Data::RunesOfElements.Data.RuneDefinition
+  _rune: 0
+  _displayName: "\u0412\u043E\u0433\u043E\u043D\u044C"
+  _color: {r: 1, g: 0.35, b: 0.05, a: 1}
+  _icon: {fileID: 21300000, guid: 70f5ca25152e7524a8ce86af8d437186, type: 3}
+  _description: "\u0417\u0430\u0432\u0434\u0430\u0454 d6+2 \u0448\u043A\u043E\u0434\u0438.
+    \u041A\u043E\u0448\u0442\u0443\u0454 2 \u043A\u043E\u043D\u0446\u0435\u043D\u0442\u0440\u0430\u0446\u0456\u0457."

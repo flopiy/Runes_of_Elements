@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb2e05f53210a541b8b16187b38a2c7, type: 3}
+  m_Name: GameDatabase
+  m_EditorClassIdentifier: RunesOfElements.Data::RunesOfElements.Data.GameDatabase
+  _mages:
+  - {fileID: 11400000, guid: 7723bbd49562cd14185a98f8442c1025, type: 2}
+  - {fileID: 11400000, guid: d053ffd2e638fbe4f8ecada5138c3003, type: 2}
+  - {fileID: 11400000, guid: da51be2212dd28b4ab2cb85a91fb5c35, type: 2}
+  - {fileID: 11400000, guid: 2af4d6405cc845f4d96b6f97884e50e8, type: 2}
+  _monsters:
+  - {fileID: 11400000, guid: f1a967812e55b7043b444bd0b4aebe3c, type: 2}
+  - {fileID: 11400000, guid: 4821d6c17a4631a47983e164a1318fb7, type: 2}
+  - {fileID: 11400000, guid: 3e4842a8ab5b7d04ea24b6b91d9a0c44, type: 2}
+  - {fileID: 11400000, guid: 5482404f57dfcd4408bb1e60a86ace6d, type: 2}
+  - {fileID: 11400000, guid: 04d6fcc8e564ab040a234b2d4c5bbb9e, type: 2}
+  - {fileID: 11400000, guid: 07e1208fa95f91a4488e4696098b9793, type: 2}
+  - {fileID: 11400000, guid: d2f088e9019b7e043892d993ef173779, type: 2}
+  - {fileID: 11400000, guid: 462d40dcd2d376843b40a8e31a20cd6d, type: 2}
+  - {fileID: 11400000, guid: 0456d32e254a61e4a893112dd8da6354, type: 2}
+  - {fileID: 11400000, guid: 48c20a4290b34e24c908396fcf26e2aa, type: 2}
+  - {fileID: 11400000, guid: e06c03b4afbdb3e47a135430f21095fd, type: 2}
+  - {fileID: 11400000, guid: c38fea5d521c8954d8490105a87329a1, type: 2}
+  - {fileID: 11400000, guid: 71e8ef6cf07cddb499322625e063ec87, type: 2}
+  - {fileID: 11400000, guid: 19924c2aa14e3aa42a7296e579ca903e, type: 2}
+  - {fileID: 11400000, guid: bb49bee0365bf6d428c5117576d9c111, type: 2}
+  - {fileID: 11400000, guid: ca0b88c7739f23e4c8169b6340d0dec2, type: 2}
+  - {fileID: 11400000, guid: a6453071389218c4aa0e3ea7d0da757c, type: 2}
+  - {fileID: 11400000, guid: 340f25986e51e6a4a9bc5f8c023873e0, type: 2}
+  - {fileID: 11400000, guid: bc0dcbda720e1ee43ae0d01337a53afb, type: 2}
+  _blessings:
+  - {fileID: 11400000, guid: 4518d06618ee60749abd491d79f962e5, type: 2}
+  - {fileID: 11400000, guid: a97ab72cb18b07b4b8c868df134192ab, type: 2}
+  - {fileID: 11400000, guid: 9cca11b764915fb4ea42f50650cdc7f3, type: 2}
+  - {fileID: 11400000, guid: eff813b6320f16a4fb795e32835f7e16, type: 2}
+  - {fileID: 11400000, guid: 0ebbafcde8b16be4bba9c31bc5cd01dd, type: 2}
+  - {fileID: 11400000, guid: 9ac4f0b3670546842ba5b60013453d7f, type: 2}
+  - {fileID: 11400000, guid: 07af1e571c0b2ad46a83da61e9094d26, type: 2}
+  - {fileID: 11400000, guid: 7e041b6554b0d4e4baec28f8e0cbfa3c, type: 2}
+  - {fileID: 11400000, guid: 4afe5b5d208bbb24dbd50e54cc4f826c, type: 2}
+  - {fileID: 11400000, guid: c6079ffeac6c25044a7ab4a11df07b66, type: 2}
+  - {fileID: 11400000, guid: 9bb5250593ac20443b557327e28f142a, type: 2}
+  - {fileID: 11400000, guid: 3263f566d2667b843ad9c4305628651a, type: 2}
+  - {fileID: 11400000, guid: 35c2053755d885b419003397e5c5ad33, type: 2}
+  - {fileID: 11400000, guid: c9ad02ac1117d7e44b9a49758cb50c5d, type: 2}
+  - {fileID: 11400000, guid: dbc3805f7b2dd3d44bdb1e25a40e8c41, type: 2}
+  - {fileID: 11400000, guid: 76ebb309382c7a0419923c520ab5259c, type: 2}
+  - {fileID: 11400000, guid: 01dda973cfaae25439c58f8e6b51952b, type: 2}
+  - {fileID: 11400000, guid: 44f6a3e6cac3f0745bf03a2334ca65d5, type: 2}
+  - {fileID: 11400000, guid: b865b2030ddf9a34cacfb048c324fcf2, type: 2}
+  - {fileID: 11400000, guid: 73b5a307229e5f14ebeef0a871258627, type: 2}
+  _runes:
+  - {fileID: 11400000, guid: 23713026a2e6ed34e95c0d702a709dcf, type: 2}
+  - {fileID: 11400000, guid: 63bab827643b95440b052e0af896323e, type: 2}
+  - {fileID: 11400000, guid: 0fcd9605c80684f4d835f1e5a50be86c, type: 2}
+  - {fileID: 11400000, guid: 54261fec73cd2e9478c00f7210a575c5, type: 2}
+  - {fileID: 11400000, guid: df24e83b0d3fd06439b2a9191eca65f9, type: 2}
+  - {fileID: 11400000, guid: e34ad5361d786654aa9bad9c070817e9, type: 2}
+  _statuses:
+  - {fileID: 11400000, guid: b579cec6e025af94b8a72c44e674ce1d, type: 2}
+  - {fileID: 11400000, guid: 868be1ba370c0da4b861f12189c5535b, type: 2}
+  - {fileID: 11400000, guid: a0fef85c917c33c43acdf2f5d3b64929, type: 2}
+  - {fileID: 11400000, guid: 869f8edaa2fd0174ba0dff0a68374e22, type: 2}
+  - {fileID: 11400000, guid: 4f81f4ee00bac7e49b3c7b2e4c7b0857, type: 2}
+  - {fileID: 11400000, guid: 3e257d6d5bdb0a44dbe1f7864a68f858, type: 2}
+  - {fileID: 11400000, guid: 4210ec7780e4ce04fad06f5dee8dbb87, type: 2}
+  - {fileID: 11400000, guid: 2e4b3312db76bf14caecf5008064bc8b, type: 2}
+  - {fileID: 11400000, guid: 741e39c2f79b2094e9e7a81563ea1ee7, type: 2}
+  - {fileID: 11400000, guid: 23bae3e7bc2a1e94ba750afd42315f36, type: 2}
+  _campaign: {fileID: 11400000, guid: edbcf9e31b1a3324cba3f554231ce6cf, type: 2}

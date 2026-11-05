@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fb49e5cc751fa44fbd704b7f8c9f39e, type: 3}
+  m_Name: magichna_vtoma_no_category
+  m_EditorClassIdentifier: Assembly-CSharp::CardGame.CardData
+  id: magichna_vtoma_no_category
+  cardName: "\u041C\u0430\u0433\u0456\u0447\u043D\u0430 \u0432\u0442\u043E\u043C\u0430"
+  description: "\u0417\u043D\u0438\u0436\u0443\u0454 \u0430\u0442\u0430\u043A\u0443
+    \u0432\u043E\u0440\u043E\u0436\u0438\u0445 \u043A\u0430\u0440\u0442 \u043D\u0430
+    2."
+  cardType: 1
+  element: 2
+  rarity: 1
+  cardSprite: {fileID: 21300000, guid: 5bb5c157973bbbc46b26acb5dd4900b6, type: 3}
+  frameColor: {r: 1, g: 1, b: 1, a: 1}
+  manaCost: 1
+  health: 0
+  attack: 0

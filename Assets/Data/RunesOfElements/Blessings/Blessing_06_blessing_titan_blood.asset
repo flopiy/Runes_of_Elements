@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0cddb9d1e4edb4a91515774ce4e33a, type: 3}
+  m_Name: Blessing_06_blessing_titan_blood
+  m_EditorClassIdentifier: RunesOfElements.Data::RunesOfElements.Data.BlessingCardDefinition
+  _def:
+    Id: blessing_titan_blood
+    Number: 6
+    Name: "\u041A\u0440\u043E\u0432 \u0442\u0438\u0442\u0430\u043D\u0430"
+    Kind: 0
+    Trigger: 0
+    Text: "\u041C\u0430\u043A\u0441\u0438\u043C\u0443\u043C \u0437\u0434\u043E\u0440\u043E\u0432'\u044F
+      12; \u0441\u0442\u0430\u0440\u0442 \u043A\u043E\u0436\u043D\u043E\u0457 \u0431\u0438\u0442\u0432\u0438
+      \u0437 12 \u0437\u0434\u043E\u0440\u043E\u0432'\u044F."
+    UsesPerBattle: 0
+    UsesPerCampaign: 0
+  _art: {fileID: 21300000, guid: 8adaa417f2ca8304486e48fcae07716d, type: 3}

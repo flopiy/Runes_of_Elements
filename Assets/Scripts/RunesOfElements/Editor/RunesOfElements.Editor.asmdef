@@ -1,0 +1,21 @@
+{
+    "name": "RunesOfElements.Editor",
+    "rootNamespace": "RunesOfElements.Editor",
+    "references": [
+        "RunesOfElements.Core",
+        "RunesOfElements.Data",
+        "Unity.TextMeshPro",
+        "Unity.InputSystem"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
